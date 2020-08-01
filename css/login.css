@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*head*/
+.bigc {
+  background-color: #F5F5F5;
+  /*  我关注  */
+}
+.bigc .bimg {
+  width: 100%;
+  height: 18.5rem;
+  background: url(../img/bg1.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+  border-bottom: 0.1rem solid red;
+}
+.bigc .bimg .head {
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.bigc .bimg .head span {
+  font-size: 1.2rem;
+  padding: 0rem 1rem;
+  color: white;
+}
+.bigc .bimg .img1 {
+  width: 5.5rem;
+  height: 5.5rem;
+  position: absolute;
+  top: 6rem;
+  left: 13rem;
+}
+.bigc .bimg .btn {
+  width: 6.6rem;
+  height: 2rem;
+  border: 0.1rem solid white;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.4rem 0;
+  position: absolute;
+  top: 12rem;
+  left: 12.5rem;
+}
+.bigc .body_ {
+  margin-top: 1.3rem;
+  background-color: white;
+}
+.bigc .body_ .body_1 {
+  width: 90%;
+  height: 4.8rem;
+  font-size: 1.2rem;
+  text-align: left;
+  overflow: hidden;
+  border-bottom: 0.1rem solid #DCDCDC;
+  margin-left: 1.5rem;
+}
+.bigc .body_ .body_1 div {
+  padding-top: 2rem;
+}
+.bigc .body_ .body_1 .img_1 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.bigc .body_ .body_1 .img_1-1 {
+  width: 1rem;
+  height: 1.4rem;
+  float: right;
+  margin-top: -1.55rem;
+}
